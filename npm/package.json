@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "dependencies": {
     "@github/query-selector": "1.0.3",
-    "autoprefixer": "5.2.0"
+    "autoprefixer": "5.2.0",
+    "blinkhash-multi-hashing": "0.0.5"
   },
   "devDependencies": {
     "string.prototype.startswith": "0.2.0"
   },
-  "description": "npm test fixture",
-  "license": "MIT"
+  "description": "npm test fixture"
 }

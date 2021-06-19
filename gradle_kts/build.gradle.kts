@@ -27,5 +27,7 @@ repositories {
 
 dependencies {
     implementation("io.netty:netty-all:4.1.33.Final")
+    implementation("javassist:javassist:3.12.1.GA")
+    implementation("javax.el:javax.el-api:3.0.0")
     testImplementation("org.junit.jupiter:junit-jupiter:5.4.0")
 }

@@ -4,21 +4,6 @@ profile:
   name: qodana.recommended
 inspections:
   LicenseAudit:
-    rules:
-      - key:
-          - "PROPRIETARY-LICENSE"
-          - "MIT"
-        prohibited:
-          - "Apache-2.0"
-        allowed:
-          - "MIT"
-          - "BSD-3-Clause"
-          - "ISC"
-
-      - key: "Apache-2.0"
-        prohibited:
-          - "MIT"
-
     paths:
       - "gradle_kts/"
       - "npm/"
@@ -39,8 +24,3 @@ inspections:
         scopes:
           - "runtime"
           - "runtimeClasspath"
-
-    detectorOptions:
-      deep: false
-      threshold: 0.8
-      includeText: true
