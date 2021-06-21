@@ -8,17 +8,6 @@ inspections:
       - "gradle_kts/"
       - "npm/"
 
-    dependencyOverrides:
-      - name: "amdefine"
-        version: "1.0.1"
-        licenses:
-          - "NONE"
-
-      - name: "@github/query-selector"
-        version: "1.0.3"
-        licenses:
-          - "UNKNOWN"
-
     dependencyScopes:
       - type: "gradle"
         scopes:
